@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NewActivity extends AppCompatActivity {
-
+ 
     ListViewAdapter_food adapter;
     private static final int LIST_Food = 1;
 
