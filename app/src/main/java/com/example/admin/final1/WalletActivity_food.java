@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
-
+ 
 public class WalletActivity_food extends AppCompatActivity {
     private Button add;
     private Button edit;
