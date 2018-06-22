@@ -12,7 +12,7 @@ public class InfiniteAdapter extends PagerAdapter {
     private Context activity;
     private int[] image;
     private int pos=0;
-
+　
     public InfiniteAdapter(Context activity, int[] image){
         this.activity = activity;
         this.image = image;

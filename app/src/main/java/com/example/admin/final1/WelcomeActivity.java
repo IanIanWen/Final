@@ -14,7 +14,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
         mHandler.sendEmptyMessageDelayed(GOTO_MAIN_ACTIVITY, 2000);
     }
- 
+ 　
     private static final int GOTO_MAIN_ACTIVITY = 0;
     private Handler mHandler = new Handler() {
         public void handleMessage(android.os.Message msg) {
