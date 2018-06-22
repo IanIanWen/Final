@@ -31,7 +31,7 @@ public class mydb_food extends Activity {
             db.execSQL(CREATE_TABLE);
         } catch (Exception e) {
         }
-    }
+    }　
 
     public void close() throws SQLException {
         db.close();

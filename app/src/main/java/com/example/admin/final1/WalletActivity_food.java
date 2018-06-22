@@ -25,7 +25,7 @@ public class WalletActivity_food extends AppCompatActivity {
     private Cursor cursor;
     private long myid = 1;
     private ListView listview;
-
+　
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
