@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListView_change_travel_collect"
+    android:background="#d0d8ff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="wrap_content"
+            android:layout_height="122.5dp">
+
+        </android.support.v4.view.ViewPager>
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewpager"
+            android:gravity="center"
+            android:text="介紹文"
+            android:textColor="#FF8800"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/text_cotent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_title"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="Item Detail Here..."
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
